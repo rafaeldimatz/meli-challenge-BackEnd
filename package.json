@@ -1,0 +1,34 @@
+{
+  "name": "challenge-meli-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "jest --verbose",
+    "testwatch":"npm run test -- --watchAll"
+  },
+  "keywords": [
+    "challenge",
+    "node",
+    "express",
+    "mercadolibre"
+  ],
+  "author": "Rafael Dimatz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.3.3"
+  }
+}
